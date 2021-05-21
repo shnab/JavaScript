@@ -185,7 +185,7 @@ let s9 = undefined;
 console.log(s7 && s8 && s9); //null
 
 //* TERNARY
-
+//?PROMPT ==>
 //?prompt ekrana default olarak string kabul ediyor.
 //?buraya +prompt  koyarsak deger numbera cevrilir
 //const age = +prompt("yasinizi giriniz");
@@ -201,3 +201,15 @@ age >= 18
 const result =
   age >= 18 ? `${name1} ehliyet alabilir ` : `${name1} ehliyet alamaz `;
 console.log(result);
+
+// *TIP DONUSUMLERI
+const para = "1000";
+console.log(para + 15); //100015
+console.log(Number(para) + 15); //1015
+
+const dilo = "Javascript";
+console.log(Number(dilo)); //NaN
+console.log(Number("123abc")); //NaN
+
+const sayim = 54;
+console.log(String(sayim), sayim); //54 54
